@@ -1,6 +1,6 @@
 // Pokemon JavaScript
 
-
+let night = 1;
 class Pokemon {
 	constructor(name){
 		this.name = name;
@@ -89,6 +89,7 @@ class Pokemon {
 		}, 1000);
 		$('#sleep').click(()=>{
 			thisthis.decreaseSleep();
+			$('#screen').toggle();
 		});
 	}
 	ageInterval(){
