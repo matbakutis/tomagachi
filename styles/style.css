@@ -1,0 +1,48 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 0;
+	font-family: 'Architects Daughter', cursive;
+}
+
+h5 {
+	color: grey;
+}
+p {
+	color: grey;
+}
+
+#screen {
+	width: 800px;
+	height: 400px;
+	background-color: black;
+	background-image: url("room.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px;
+	margin: auto;
+}
+
+#boxContainer {
+	display: flex;
+	width: 800px;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 1%;
+	align-items: center;
+}
+.sides{
+	width: 200px;
+}
+
+.words {
+	display: flex;
+	justify-content: space-between;
+}
+
+#charmander {
+	position: relative;
+	top: 200px;
+	left: 300px;
+}
+
